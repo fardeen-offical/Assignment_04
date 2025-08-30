@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CV Builder — HTML & CSS</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <header class="topbar">
+    <h1>CV Builder</h1>
+    <p>Edit the fields below, then print to PDF (Ctrl/Cmd + P).</p>
+  </header>
+
+  <main class="cv">
+    <!-- Sidebar -->
+    <aside class="cv__side">
+      <div class="avatar" aria-hidden="true"></div>
+
+      <section class="block">
+        <h3>Contact</h3>
+        <ul class="list">
+          <li contenteditable="true">Fardeen Ali</li>
+          <li contenteditable="true">Karachi, Pakistan</li>
+          <li contenteditable="true">fardeen@example.com</li>
+          <li contenteditable="true">+92 300 0000000</li>
+          <li contenteditable="true">github.com/yourname</li>
+        </ul>
+      </section>
+
+      <section class="block">
+        <h3>Skills</h3>
+        <ul class="tags" contenteditable="true">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Flexbox</li>
+          <li>Responsive</li>
+          <li>Bootstrap</li>
+          <li>JavaScript (basic)</li>
+        </ul>
+      </section>
+
+      <section class="block">
+        <h3>Languages</h3>
+        <ul class="list">
+          <li contenteditable="true">Urdu — Native</li>
+          <li contenteditable="true">English — Good</li>
+        </ul>
+      </section>
+    </aside>
+
+    <!-- Main content -->
+    <section class="cv__main">
+
+      <section class="head">
+        <h2 contenteditable="true">Fardeen Ali</h2>
+        <p class="role" contenteditable="true">Frontend Trainee • Modern Web Application Development</p>
+        <p class="summary" contenteditable="true">
+          Passionate frontend learner focused on clean, responsive UIs. Comfortable with HTML, CSS, Flexbox and media queries. Quick learner who enjoys converting Figma designs to code.
+        </p>
+      </section>
+
+      <section class="block">
+        <h3>Experience</h3>
+
+        <div class="item">
+          <div class="item__header">
+            <h4 contenteditable="true">Frontend Practice Projects</h4>
+            <span class="meta" contenteditable="true">2025 — Present</span>
+          </div>
+          <ul class="bullets" contenteditable="true">
+            <li>Built portfolio, CV builder, and e-commerce layouts with HTML & CSS.</li>
+            <li>Applied Flexbox and media queries for mobile-first responsiveness.</li>
+            <li>Deployed practice projects on GitHub Pages.</li>
+          </ul>
+        </div>
+
+        <div class="item">
+          <div class="item__header">
+            <h4 contenteditable="true">Volunteer Web Helper — Local NGO</h4>
+            <span class="meta" contenteditable="true">3 months</span>
+          </div>
+          <ul class="bullets" contenteditable="true">
+            <li>Cleaned up styles and improved readability of static pages.</li>
+            <li>Optimized typography and spacing for better UX.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="block">
+        <h3>Education</h3>
+        <div class="item">
+          <div class="item__header">
+            <h4 contenteditable="true">BS — Information Technology</h4>
+            <span class="meta" contenteditable="true">2021 — 2025</span>
+          </div>
+          <p contenteditable="true">Relevant: Web Development, Networks, Data Structures.</p>
+        </div>
+
+        <div class="item">
+          <div class="item__header">
+            <h4 contenteditable="true">Modern Web Application Development (Bootcamp)</h4>
+            <span class="meta" contenteditable="true">2025</span>
+          </div>
+          <p contenteditable="true">Projects: Portfolio, CV Builder, E-commerce layout, NGO clone.</p>
+        </div>
+      </section>
+
+      <section class="block">
+        <h3>Projects</h3>
+        <div class="cards">
+          <article class="card">
+            <h4 contenteditable="true">Portfolio Website</h4>
+            <p contenteditable="true">Responsive personal site with sections for About, Skills, and Projects.</p>
+          </article>
+          <article class="card">
+            <h4 contenteditable="true">Bata UI (Clone)</h4>
+            <p contenteditable="true">Homepage layout using Flexbox + media queries (HTML & CSS only).</p>
+          </article>
+          <article class="card">
+            <h4 contenteditable="true">CV Builder</h4>
+            <p contenteditable="true">Editable CV template with print-friendly styles.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="block">
+        <h3>Awards / Extras</h3>
+        <ul class="bullets" contenteditable="true">
+          <li>Completed 10+ practice layouts (Figma → HTML/CSS).</li>
+          <li>Consistent Git commits and issue tracking on personal repos.</li>
+        </ul>
+      </section>
+
+    </section>
+  </main>
+
+  <footer class="note">
+    <p>Tip: Click any text to edit • Use Tab/Shift+Tab to move • Print to PDF when done</p>
+  </footer>
+</body>
+</html>
